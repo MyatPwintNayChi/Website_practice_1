@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+img{
+    padding-top:20px;
+    width:430px;
+    height:60px;
+}
+header{
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li{
+    font-size:18px;
+    padding:20px 35px;
+}
+
+section{
+    display:flex;
+    padding:20px 30px;
+}
+
+article{
+    flex:1;
+    padding:10px 30px;
+}
+
+
+
+
+footer{
+    display:flex;
+   
+  
+   
+}
+
+footer div img{
+    padding:0px;
+}
+
+footer div{
+    flex:1;
+    
+}
+

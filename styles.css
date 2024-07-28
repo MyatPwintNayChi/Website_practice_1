@@ -1,0 +1,156 @@
+body {
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 0px;
+  background-color: #edefee;
+}
+
+header {
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+header img {
+  width: 35%;
+}
+
+nav {
+  border-radius: 18px;
+  background-color: #302f2e;
+}
+
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0px;
+  padding: 12px 18px;
+  font-size: 20px;
+}
+
+nav li:hover {
+  background-color: #9a9a9a;
+  color: black;
+}
+
+nav li:hover a {
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#promo_area {
+  background-image: url(pasta2.jpg);
+  background-size: cover;
+  background-position: 0;
+}
+
+#promo_area p {
+  width: 70%;
+  color: white;
+}
+
+#promo_area h2 {
+  color: white;
+  font-size: 30px;
+}
+
+section {
+  display: flex;
+  margin: 0px;
+}
+
+article {
+  flex: 1;
+  margin: 0px;
+  margin-top: 30px;
+  border-radius: 18px;
+  border-top-right-radius: 34px;
+  padding: 20px 20px;
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+
+article:hover {
+  box-shadow: 0px 5px 10px rgb(104, 104, 104);
+  transition: 0.5s;
+}
+
+#open_hours {
+  padding-left: 40px;
+}
+
+div img {
+  width: 50px;
+}
+
+#footer_right {
+  margin-top: 30px;
+  border-top: 1px solid rgb(46, 55, 30);
+  animation: line_animation 2s infinite ease;
+}
+
+#footer_right p {
+  font-size: 12px;
+  color: rgb(46, 55, 30);
+  float: right;
+  margin: 0px;
+}
+
+@keyframes line_animation {
+  0% {
+    width: 10%;
+  }
+  50% {
+    width: 25%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+#book {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#article_img {
+  width: 100%;
+  height: 200px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 720px) {
+  header img {
+    width: 40%;
+  }
+  nav {
+    border-radius: 12px;
+  }
+  ul {
+    padding: 0px;
+  }
+  nav li {
+    font-size: 16px;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #book {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
